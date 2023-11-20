@@ -1,6 +1,6 @@
 import rsa
 
-publicKey, privateKey = rsa.newkeys(512)
+publicKey, privateKey = rsa.newkeys(2048)
 
 
 def encrypt():
